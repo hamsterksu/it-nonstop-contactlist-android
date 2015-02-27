@@ -2,7 +2,7 @@
 
 Android демо приложение с конференции http://it-nonstop.net/city/kherson
 
-![alt tag](https://www.dropbox.com/s/zx95nsdkdp4zs4z/it-nonstop-screenshot-android.png?dl=0)
+![Screenshot](https://github.com/hamsterksu/it-nonstop-contactlist-android/blob/master/it-nonstop-screenshot-android.png)
 
 ###Список используемых библиотек
 
