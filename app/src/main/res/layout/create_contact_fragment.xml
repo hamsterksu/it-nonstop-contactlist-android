@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_create"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        />
+
+    <ScrollView
+        android:layout_above="@id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/Edit"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Name"/>
+
+            <EditText
+                android:id="@+id/phone"
+                style="@style/Edit"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Phone"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/work"
+                style="@style/Edit"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Work"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/mobile"
+                style="@style/Edit"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Mobile"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/address"
+                style="@style/Edit"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Address"/>
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/Edit"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Email"
+                android:inputType="textEmailAddress"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/btn_image"
+                    android:src="@drawable/btn_add_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
