@@ -2,6 +2,8 @@
 
 Android демо приложение с конференции http://it-nonstop.net/city/kherson
 
+Исходный код серверного приложения тут - https://github.com/sergey-litvinov/NonStop-SampleProject
+
 ![Screenshot](https://github.com/hamsterksu/it-nonstop-contactlist-android/blob/master/it-nonstop-screenshot-android.png)
 
 ###Список используемых библиотек
