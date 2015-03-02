@@ -8,7 +8,7 @@ Android демо приложение с конференции http://it-nonsto
 
 ###Список используемых библиотек
 
-1. Даза данных и контент провайдер - https://github.com/hamsterksu/Android-AnnotatedSQL
+1. База данных и контент провайдер - https://github.com/hamsterksu/Android-AnnotatedSQL
 2. Gradle плагин - https://github.com/hamsterksu/android-aptlibs-gradle-plugin
 3. Плагин для AnnotatedSql - https://github.com/hamsterksu/annotatedsql-projection-plugin
 4. Коммуникации с сервером - https://github.com/square/retrofit
